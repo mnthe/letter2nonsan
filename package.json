@@ -1,0 +1,28 @@
+{
+    "name": "letter2nonsan",
+    "version": "1.0.0",
+    "description": "Automated letter sender",
+    "scripts": {
+        "start": "ts-node index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mnthe/letter2nonsan.git"
+    },
+    "keywords": [],
+    "author": "mnthe",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mnthe/letter2nonsan/issues"
+    },
+    "homepage": "https://github.com/mnthe/letter2nonsan#readme",
+    "devDependencies": {
+        "@types/puppeteer": "^1.19.1",
+        "ts-node": "^8.4.1"
+    },
+    "dependencies": {
+        "dotenv": "^8.1.0",
+        "puppeteer": "^1.20.0",
+        "typescript": "^3.6.3"
+    }
+}
